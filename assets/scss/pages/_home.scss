@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .icons{
+            gap: 5px;
+        }
+    }
+    .inputNav{
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .input-group{
+         width: 699px;
+            button{
+                width: 50px;
+            }
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 20px;
+              h1{
+                font-size: 20px;
+              }
+        }
+    }
+}
+
+#friday{
+   width: 100%;
+   min-height: 500px;
+   background-image: url(/assets/img/hero-1\ \(1\).jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 3%;
+   display: flex;
+   align-items: center;
+   .text{
+   justify-content: center;
+    h3{
+        color: #E7AB3C;
+    }
+    h1{
+        color: black;
+        font-size: 70px;
+    }
+    button{
+        background-color: #E7AB3C;
+        color: white;
+        border-radius: 0;
+        width: 100px;
+        height: 40px;
+        border: 0;
+    }
+   }
+}
+
+
+#hyuman{
+    width: 100%;
+    margin: 3%;
+    .col-lg-4{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+#dealSection{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(/assets/img/time-bg\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+ .pDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;  
+    justify-content: center;
+ }
+    button{
+    background-color: #E7AB3C;
+    color: white;
+    border-radius: 0;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    }
+ }
+
+
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    min-height: 150px;
+    padding-top: 20px;
+}
+
+
+.col-12{
+  width: 400px;
+  display: flex;
+  margin: 2%;
+  
+  button{
+    width: 130px;
+    height: 50px;
+    background-color: #E7AB3C;
+    color: white;
+    border: none;
+    &:hover {
+      background-color: black;
+      color: white;
+      border: none;
+    }
+  }
+}
+
+
+#product {
+    margin: 3%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-weight: 600;
+    color: rgb(157, 157, 157);
+    flex-wrap: wrap;
+    .boxs {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .divz {
+      width: 100%;
+  
+      button {
+        width: 130px;
+        height: 50px;
+        background-color: #E7AB3C;
+        color: white;
+        border: none;
+        &:hover {
+          background-color: black;
+          color: white;
+        }
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .divc {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  #load{
+    width: 130px;
+    height: 50px;
+    background-color: #E7AB3C;
+    color: white;
+    border: none;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+    margin: 3%;
+}
+
+
+
+
+
+
+
+
+//BASKET//
+
+#productz {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  height: auto;
+  font-weight: 600;
+  color: rgb(157, 157, 157);
+  flex-wrap: wrap;
+
+  .divz {
+    width: 300px;
+    img {
+      width: 100%;
+    }
+    .divc {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    button {
+        width: 130px;
+        height: 50px;
+        background-color: #E7AB3C;
+        color: white;
+        border: none;
+        &:hover {
+          background-color: black;
+          color: white;
+        }
+        margin: 3%;
+    }
+  }
+}
+
+
+
+//FORM//
+
+#form1 {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  gap: 10px;
+}
+
+
+

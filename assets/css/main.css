@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .contact .icons {
+  gap: 5px;
+}
+header .inputNav {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .inputNav .input-group {
+  width: 699px;
+}
+header .inputNav .input-group button {
+  width: 50px;
+}
+header .inputNav .icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+}
+header .inputNav .icons h1 {
+  font-size: 20px;
+}
+
+#friday {
+  width: 100%;
+  min-height: 500px;
+  background-image: url(/assets/img/hero-1\ \(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+}
+#friday .text {
+  justify-content: center;
+}
+#friday .text h3 {
+  color: #E7AB3C;
+}
+#friday .text h1 {
+  color: black;
+  font-size: 70px;
+}
+#friday .text button {
+  background-color: #E7AB3C;
+  color: white;
+  border-radius: 0;
+  width: 100px;
+  height: 40px;
+  border: 0;
+}
+
+#hyuman {
+  width: 100%;
+  margin: 3%;
+}
+#hyuman .col-lg-4 img {
+  width: 100%;
+}
+
+#dealSection {
+  width: 100%;
+  min-height: 500px;
+  background-image: url(/assets/img/time-bg\ \(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+#dealSection .pDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+#dealSection button {
+  background-color: #E7AB3C;
+  color: white;
+  border-radius: 0;
+  width: 150px;
+  height: 40px;
+  border: 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  min-height: 150px;
+  padding-top: 20px;
+}
+
+.col-12 {
+  width: 400px;
+  display: flex;
+  margin: 2%;
+}
+.col-12 button {
+  width: 130px;
+  height: 50px;
+  background-color: #E7AB3C;
+  color: white;
+  border: none;
+}
+.col-12 button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#product {
+  margin: 3%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-weight: 600;
+  color: rgb(157, 157, 157);
+  flex-wrap: wrap;
+}
+#product .boxs {
+  width: 100%;
+  flex-wrap: wrap;
+}
+#product .divz {
+  width: 100%;
+}
+#product .divz button {
+  width: 130px;
+  height: 50px;
+  background-color: #E7AB3C;
+  color: white;
+  border: none;
+}
+#product .divz button:hover {
+  background-color: black;
+  color: white;
+}
+#product .divz img {
+  width: 100%;
+  height: auto;
+}
+#product .divz .divc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#load {
+  width: 130px;
+  height: 50px;
+  background-color: #E7AB3C;
+  color: white;
+  border: none;
+  margin: 3%;
+}
+#load:hover {
+  background-color: black;
+  color: white;
+}
+
+#productz {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  height: auto;
+  font-weight: 600;
+  color: rgb(157, 157, 157);
+  flex-wrap: wrap;
+}
+#productz .divz {
+  width: 300px;
+}
+#productz .divz img {
+  width: 100%;
+}
+#productz .divz .divc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#productz .divz button {
+  width: 130px;
+  height: 50px;
+  background-color: #E7AB3C;
+  color: white;
+  border: none;
+  margin: 3%;
+}
+#productz .divz button:hover {
+  background-color: black;
+  color: white;
+}
+
+#form1 {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  gap: 10px;
+}
